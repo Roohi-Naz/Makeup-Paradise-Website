@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style
+    >
+    body{
+        background-color: black;
+    }
+    header {
+
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        background-image:url(products\ folder/banner.jpg);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 0.5rem;
+    }
+    .container{
+        border-radius: 5px;
+        padding: 3rem;
+        margin: 6rem;
+        box-shadow: 0 7px 7px rgba(241, 235, 235, 0.575);
+        color: #fff;
+        background-color: #444;
+    }
+    h1{
+        font-size: 3 cap;
+    }
+    p{
+        font-size: 2cap;
+    }
+    .order {
+text-align: center;
+font-size: 2cap;
+    }
+    .order input{
+        width: 20%;
+        height: 50px;
+    }
+    button{ width: 20%;
+        height: 40px;
+        color: white;
+        background-color: #444;
+        box-shadow: #444;
+        cursor: pointer;
+
+    }
+
+    @media (max-width: 480px){
+        .container{
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+            h1{
+        font-size: 2cap;
+    }
+    p{
+        font-size: 1.5cap;
+    }
+    .order {
+text-align: center;
+font-size: 1.8cap;
+    }
+    .order input{
+        width: 30%;
+        height: 40px;
+    }
+    button{ width: 30%;
+        height: 40px;
+        color: white;
+        background-color: #444;
+        box-shadow: #444;
+        cursor: pointer;
+
+    
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makeup Paradise</h1>
+        <p>Your one-stop shop for all things makeup!</p>
+    </header>
+   <div class="container">
+    <h1>TRACK YOUR ORDER</h1>
+    <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given 
+        to you on your receipt and in the confirmation email you should have received.</p>
+
+        <div class="order">
+            <h3>Order Number</h3>
+            <input type="number" name="number" placeholder="000 000">
+            <br> <br>
+            <button> track your order</button>
+        </div>
+    </div>
+   
+</body>
+</html>

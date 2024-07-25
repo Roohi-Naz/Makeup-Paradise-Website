@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+     background-color: black; 
+}
+
+header {
+
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    background-image:url(products\ folder/banner.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem;
+}
+.container{
+    border-radius: 5px;
+    padding: 3rem;
+    margin: 6rem;
+    box-shadow: 0 7px 7px rgba(241, 235, 235, 0.575);
+    color: #fff;
+    background-color: #444;
+}
+.form{
+    line-height: 4cap;
+    font-size: 2cap;
+    
+}
+.form form{
+    background: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    border: black;
+    padding: 2%;
+    margin-left: 70%;
+    margin-top: 2%;
+    font-size: 2cap;
+    box-shadow: 0 1cap 1cap rgba(19, 18, 18, 0.459);
+}
+form input{
+    background: transparent;
+}
+.submit input{
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    border: black;
+    padding: 2%;
+    position: relative;
+    margin-top: 8px; 
+    font-size: 1.5cap;
+    box-shadow: 0 1cap 1cap rgba(19, 18, 18, 0.459);
+    cursor: pointer;
+    
+}
+
+@media (max-width: 480px){
+        .container{
+            max-width: 1500px;
+            margin: 0 auto;
+            width: 70%;
+            font-size: 1cap;
+        }
+        a{
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    border: black;
+    padding: 2%;
+    margin-left: 50%;
+    margin-top: px;
+    font-size: 1.6cap;
+    box-shadow: 0 1cap 1cap rgba(19, 18, 18, 0.459);
+}
+    
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makeup Paradise</h1>
+        <p>Your one-stop shop for all things makeup!</p>
+    </header>
+   <div class="container">
+    <h1> SIGNUP FOR FREE</h1>
+    <H2>AND GET 20% OFF</H2>
+
+   <div class="form"><form action="">
+   NAME: <input type="text" name="name">
+   <br> 
+   EMAIL: <input type="email" name="EMAIL" required="required">
+   <br>
+   PASSWORD: <input type="password" name="password">
+   <br>
+   DATE OF BIRTH: <input type="date" name="date">
+   <br>
+   PHONE NUMBER<input type="number" required="required">
+   <br>
+  PAYMENT YOU PREFER:
+  <br>
+  Online payment <input type="radio" name="online" id=""> Cash on delivery<input type="radio" name="cash">
+  <br>
+</form> </div>
+   <BR>
+    <form action="">
+        <div class="submit"> <input  type="submit" name="submit">
+    </form>
+    <a  href="home.html"> BACK TO HOME</a> 
+   </div>
+</body>
+</body>
+</html>
